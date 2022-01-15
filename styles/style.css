@@ -1,8 +1,51 @@
+/*-------------------------
+-------fonts-google--------
+---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&family=Dancing+Script:wght@700&family=Indie+Flower&family=Mochiy+Pop+P+One&family=Poppins:wght@400;500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    margin: 30px;
+    background-color: #fff;
+}
+.top{
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color:darkgrey;
+}
+.Influencer{
+    margin: 20px;
+}
+.Influencer h3{
+    color: rgb(24, 22, 22);
+}
+.Products{
+    color:crimson;
+}
+.home{
+    display: flex;
     
 }
-h1{
-    color: brown;
+.home p{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+.home .fas{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
 }
