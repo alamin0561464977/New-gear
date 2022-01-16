@@ -13,7 +13,7 @@ body{
     background-color: rgb(204, 202, 202);
 }
 .container{
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
     background-color: #fff;
 }
@@ -25,7 +25,7 @@ body{
     background-color:darkgrey;
 }
 .Influencer{
-    margin: 20px;
+    color: crimson;
 }
 .Influencer h3{
     color: rgb(24, 22, 22);
@@ -60,15 +60,66 @@ body{
 .top-banner{
     margin-left: 30px;
     padding: 20px;
-}
-.banner-left h1{
-    margin-bottom: 10px;
+} 
+.banner-left h2{
+    margin-bottom: 20px;
+    font-size: 40px;
 }
 button{
     padding: 10px 20px;
     margin: 20px;
-    border: none;
+    border: 0;
     border-radius: 5px;
     color: #fff;
+    cursor: pointer;
     background-image: linear-gradient(crimson, rgb(199, 61, 88));
+    box-shadow: 0 7px 0 crimson;
+    position: relative;
+    top: 0px;
+}
+button:active{
+    top: 5px;
+    box-shadow: 0px 2px 1px#800c10;
+}
+/* logos */
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    margin: 20px;
+
+}
+/* Popular Collection */
+.banner-0{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.Popular{
+    margin: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black ;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.banner-1 img{
+    height: 200px;
+    width: 275px;
+}
+.banner-2{
+    padding: 10px;
+}
+.banner-2 .fas{
+    color: darkorange;
+}
+.bottom{
+    text-align: center;
+    padding: 30px;
+    background-color: darkslategrey;
+    color: #fff;
 }
