@@ -123,3 +123,8 @@ button:active{
     background-color: darkslategrey;
     color: #fff;
 }
+
+.contact-1 img{
+    height: 200px;
+    width: 200px;
+}
