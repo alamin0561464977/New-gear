@@ -61,6 +61,14 @@ body{
     margin-left: 30px;
     padding: 20px;
 }
-.top-banner h1{
+.banner-left h1{
     margin-bottom: 10px;
+}
+button{
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-image: linear-gradient(crimson, rgb(199, 61, 88));
 }
